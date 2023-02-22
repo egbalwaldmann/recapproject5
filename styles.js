@@ -11,4 +11,10 @@ export default createGlobalStyle`
     margin: 0;
     font-family: system-ui;
   }
+
+  /* .ColorDiv {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+  } */
 `;

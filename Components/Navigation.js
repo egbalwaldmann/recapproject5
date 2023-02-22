@@ -24,7 +24,7 @@ const Navbar = styled.nav`
   position: fixed;
   bottom: 0;
   width: 100%;
-  a {
+  a, h1 {
     text-decoration: none;
     color: black;
     padding: 10px;
