@@ -2,7 +2,7 @@ import produce ,{ freeze } from "immer";
 import { useCallback } from "react";
 import useLocalStorageState from "use-local-storage";
 
-export function useImmerLocalStorageState(key, options) {
+ function useImmerLocalStorageState(key, options) {
   const [value, setValue] = useLocalStorageState(key, {
     ...options,
     defaultValue: freeze(options.defaultValue),
@@ -19,3 +19,5 @@ export function useImmerLocalStorageState(key, options) {
     ),
   ];
 }
+
+export default useImmerLocalStorageState;
